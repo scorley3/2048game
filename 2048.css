@@ -1,0 +1,31 @@
+#grid{
+	display:grid;
+	width:600px;
+	height:600px;
+	grid-template-columns:150px 150px 150px 150px;
+	grid-template-rows:150px 150px 150px 150px;
+	border-style:solid;
+	border-radius:5px;
+	border-width:3px;
+	border-color:gray;
+	background-color:lightGray;
+}
+.gridBox{
+	border-color:gray;
+	border-width:2px;
+	border-style:solid;
+	width:150px;
+	height:150px;
+	border-radius:3px;
+	border-collapse:collapse;
+}
+#over{
+	display:none;
+}
+body{
+	font-family: courier;
+}
+#reset{
+	font-family:courier;
+	margin-bottom: 10px;
+}
